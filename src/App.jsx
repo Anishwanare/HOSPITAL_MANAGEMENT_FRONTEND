@@ -37,7 +37,7 @@ const App = () => {
     const fetchAdmins = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:4010/api/v3/admin/getalladmins",
+          `${import.meta.env.VITE_API_BASE_URL}/api/v3/admin/getalladmins`,
           {
             withCredentials: true, // Send cookies with the request
           }
@@ -63,7 +63,7 @@ const App = () => {
     const fetchUsers = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:4010/api/v2/patients/getAllPatients",
+          `${import.meta.env.VITE_API_BASE_URL}/api/v2/patients/getAllPatients`,
           {
             withCredentials: true, // Send cookies with the request
           }

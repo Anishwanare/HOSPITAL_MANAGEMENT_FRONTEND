@@ -46,7 +46,7 @@ const AppointmentForm = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:4010/api/v5/patient/appointment",
+        `${import.meta.env.VITE_API_BASE_URL}/api/v5/patient/appointment`,
         { firstName, lastName, email, phone, address, dob, message, gender, appointmentDate, department, doctorFirstName, doctorLastName, Visited },
         {
           withCredentials: true,
