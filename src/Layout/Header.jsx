@@ -82,7 +82,7 @@ const Header = () => {
         </div>
 
         {menu && (
-          <div className="md:hidden flex gap-3 items-center justify-center flex-col w-full h-full bg-black p-10 top-[4.5rem] right-0 absolute z-50 shadow-2xl ">
+          <div className="md:hidden flex gap-3 items-center justify-center flex-col w-full h-full bg-black py-10 top-[5rem] right-0  z-50 shadow-2xl ">
             <ul className="flex gap-8 flex-col">
               <li>
                 <Link
