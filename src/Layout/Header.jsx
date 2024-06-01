@@ -69,7 +69,7 @@ const Header = () => {
             <Link to={"/"}>
           <div className="flex items-center">
               <img src="logo.png" alt="Hospital Logo" className="h-16 mr-2 " />
-              <p className="text-2xl">Sarda Multi-Speciality Hospital</p>
+              <p className="text-lg md:text-2xl">Sarda Multi-Speciality Hospital</p>
           </div>
             </Link>
         </div>
